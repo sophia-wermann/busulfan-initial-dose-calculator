@@ -14,6 +14,6 @@ function calcularDose() {
     var dose = aucTransformada * cl;
     
     res.innerHTML = `O paciente apresenta Volume de Distribuição (Vd) igual a ${vd.toFixed(2).toString().replace('.', ',')}L 
-    e Clearence (CL) igual a ${cl.toFixed(2).toString().replace('.', ',')}L/h.<br><br> 
+    e Clearance (CL) igual a ${cl.toFixed(2).toString().replace('.', ',')}L/h.<br><br> 
     <strong>A dose inicial a ser administrada é de ${dose.toFixed(2).toString().replace('.', ',')}mg</strong>.`;
 }
