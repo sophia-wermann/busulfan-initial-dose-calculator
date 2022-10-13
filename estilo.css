@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(125, 127, 129);
+    font: normal 1rem Arial;
+}
+
+header {
+    text-align: center;
+}
+
+#img-ufrgs {
+    width: 5rem;
+}
+
+#img-pkpdlab {
+    width: 8rem;;
+}
+
+h1 {
+    color: orange;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 48%;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+#output {
+    text-align: center;
+    margin: 1rem;
+}
+
+#button {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 2rem;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 1rem;
+}

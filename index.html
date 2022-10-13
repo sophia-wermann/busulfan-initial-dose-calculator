@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bussulfano - Calculadora de primeira dose</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Bussulfano - Calculadora de primeira dose</h1>
+        <h2>Cálculos baseados em modelo farmacocinético populacional para pacientes pediátricos</h2>
+    </header>
+    <section>
+        <div id="dados">
+            <p><label for="idade">Idade do paciente: </label><input type="number" name="idade" id="idade"> meses</p>
+            <p><label for="peso">Peso atual do paciente: </label><input type="number" name="peso" id="peso"> kg</p>
+            <p><label for="AUC">Área sob a curva (AUC) alvo: </label><input type="number" name="auc" id="auc"> &micro;M.min</p>
+        </div>
+        <div id="output">
+            <p><input type="button" id="button" value="Calcular dose inicial" onclick="calcularDose()"></p>
+            <div id="res">Preparando cálculos...</div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Laboratório de farmacocinética e modelagem PK/PD - UFRGS</p>
+        <img src="ufrgs.png" id="img-ufrgs">
+        <img src="pkpdlab.png" id="img-pkpdlab">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
