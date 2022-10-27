@@ -9,8 +9,8 @@ function calcularDose() {
     var aucNum = Number(auc.value);
     var aucTransformada = ((aucNum * 246.304) / 1000) / 60;
     
-    var vd = (8.61 * (1 + 0.0914 * (pesoNum - 13.65))) * Math.log(0.0195);
-    var cl = (3.17 * (1 + 0.0202 * (idadeNum - 43))) * Math.log(0.156);
+    var vd = (8.61 * (1 + 0.0914 * (pesoNum - 13.65))) * 1.019691367;
+    var cl = (3.17 * (1 + 0.0202 * (idadeNum - 43))) * 1.168826203;
     var dose = aucTransformada * cl;
     
     res.innerHTML = `O paciente apresenta Volume de Distribuição (Vd) igual a ${vd.toFixed(2).toString().replace('.', ',')}L 
